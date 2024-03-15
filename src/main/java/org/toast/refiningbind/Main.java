@@ -10,9 +10,10 @@ public final class Main extends JavaPlugin {
         RefineAPI api = RefineAPI.getAPI();
         if (api != null) {
             getLogger().info("检测到ToastRefine启动成功");
+            WeaponBind bind = new WeaponBind();
+            bind.register();
         }
-        WeaponBind bind = new WeaponBind();
-        bind.register();
+
     }
 
     @Override
