@@ -1,0 +1,6 @@
+name: RefiningBind
+version: '${version}'
+main: org.toast.refiningbind.Main
+authors: [Toaste]
+depend:
+  - ToastRefine
